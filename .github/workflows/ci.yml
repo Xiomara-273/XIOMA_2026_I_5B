@@ -5,7 +5,6 @@ on:
     branches:
       - main
       - byron
-
   pull_request:
     branches:
       - main
@@ -13,11 +12,9 @@ on:
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
 
     steps:
-
       - name: Descargar repositorio
         uses: actions/checkout@v4
 
